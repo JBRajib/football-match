@@ -18,6 +18,7 @@ section.header {
     background: #1e1d1d;
     margin-top: 70px;
     margin-bottom: 70px;
+    border-radius: 15px;
 }
 
 .main-head {
@@ -54,6 +55,11 @@ img.messi {
     outline: none;
     border-radius: 5px;
     transition: o.3s ease-in-out;
+}
+
+button.live:hover {
+    background-color: darkmagenta;
+    padding-right: 25px;
 }
 
 .button {
@@ -103,6 +109,7 @@ button.blogs{
 
 .main-container{
     display: flex;
+    justify-content: center;
 }
 .container{
     display: grid;
@@ -139,6 +146,7 @@ button.blogs{
 
 section.main-container-match {
     display: flex;
+    justify-content: center;
 }
 
 .container-match {
@@ -165,6 +173,7 @@ section.main-container-match {
 
 section.groups {
     display: flex;
+    justify-content: center;
 }
 
 .groups-name {
