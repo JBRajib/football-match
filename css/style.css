@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* section-1 start */
+.head {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 40px 40px 0 40px;
+    overflow: hidden;
+}
+
+section.header {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #1e1d1d;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.main-head {
+    width: 50%;
+}
+
+.img {
+    width: 50%;
+}
+
+img.messi {
+    width: 245px;
+}
+
+.main-head h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.main-head p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.button .live {
+    display: inline-block;
+    padding: 10px 38px;
+    font-size: 16px;
+    font-weight: 600;
+    background: crimson;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    transition: o.3s ease-in-out;
+}
+
+.button {
+    margin-top: 24px;
+    margin-bottom: 26px;
+}
+/* section-1 end */
+
+/* section-2 start */
+
+
+.lists{
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    display: grid;
+    width: 150px;
+    height: 200px;
+}
+
+button.matchs {
+    height: 50px;
+    border-radius: 10px;
+}
+
+button.matchs a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+button.groups {
+    height: 50px;
+    border-radius: 10px;
+}
+
+button.groups a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+button.blogs{
+    background-color: crimson;
+    font-size: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.main-container{
+    display: flex;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.match-pic img{
+    width: 100%;
+}
+
+.info button{
+    margin:10px;
+}
+.info{
+    width: 190px;
+    margin:10px;
+}
+
+.comment-section{
+    display: flex;
+    gap: 40px;
+}
+
+.match-news{
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    width: 175px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* match css start */
+
+
+section.main-container-match {
+    display: flex;
+}
+
+.container-match {
+    padding: 10px;
+    border: 2px solid #e6cdcb;
+    text-align: center;
+    margin: 0px 10px 10px;
+}
+
+.team-flag {
+    display: flex;
+    padding: 20px 5px;
+}
+
+.all-matchs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 100px;
+}
+
+/* match css end */
+
+/* group css start */
+
+section.groups {
+    display: flex;
+}
+
+.groups-name {
+    height: auto;
+    width: 175px;
+    border: 1px solid #dec8c8;
+    padding: 15px;
+    text-align: center;
+    margin: 0 15px 50px;
+}
+
+.groups-name img {
+    width: 200px;
+    height: 155px;
+}
+
+.team-demo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* group css end */
+
+
+/* section-2 end */
+.view {
+    text-align: center;
+    display: none;
+}
+button.view-all {
+    background-color: crimson;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    margin: 60px;
+    font-size: 25px;
+    color: white;
+}
+/* section-3 start */
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.footer h1{
+    font-size: 40px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+.footer-line{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+    padding: 100px;
+}
+
+.social-media span {
+    padding: 60px;
+    font-size: 40px;
+}
+
+.social-media span a {
+    color: #e37af7;
+}
+/* section-3 end */
+
+    /* -----------------------
+    responsive css index.html
+    -------------------------*/
+
+
+@media only screen and (max-width:576px) {
+    section.header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .head {
+        flex-direction: column;
+    }
+
+    .main-head {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img {
+        width: 100%;
+        text-align: center;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .lists {
+        padding: 20px 20px 20px 20px;
+        border-radius: 10px;
+        display: grid;
+        width: 90%;
+        height: 260px;
+        justify-items: center;
+        background-color: aliceblue;
+    }
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    button.blogs {
+        width: 135px;
+        height: 52px;
+    }
+    .match-news {
+        border: 2px solid whitesmoke;
+        padding: 10px 30px;
+        width: 85%;
+        /* margin: 10px; */
+        border-radius: 15px;
+    }
+    .footer {
+        background-color: black;
+        color: aliceblue;
+        height: 880px;
+        padding-top: 50px;
+    }
+    .footer-line {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        text-align: center;
+    }
+    .social-media {
+        text-align: center;
+        padding: 1px;
+        display: flex;
+    }
+    .social-media span {
+        padding: 30px;
+        font-size: 40px;
+    }
+}
+
+    /* -----------------------
+    responsive css index.html
+    -------------------------*/
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+    section.header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .head {
+        gap: 58px;
+        padding: 30px 10px 0 24px;
+    }
+    .main-head h1 {
+        font-size: 34px;
+    }
+    .main-head p {
+        font-size: 15px;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .lists {
+        border-radius: 10px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+        background-color: white !important;
+        width: 100% !important;
+    }
+    button.blogs {
+        background-color: crimson;
+        font-size: 20px;
+        border-radius: 10px;
+        color: aliceblue;
+        height: 50px;
+        width: 150px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .match-news {
+        border: 2px solid whitesmoke;
+        padding: 20px;
+        width: 85%;
+        margin: 10px;
+        border-radius: 15px;
+    }
+    .view {
+        text-align: center;
+        display: inherit;
+    }
+}
